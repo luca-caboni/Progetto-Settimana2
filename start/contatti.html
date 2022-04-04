@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Epicode School: contattaci per i corsi di Front End Developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets\css\reset.css">
+  <link rel="stylesheet" href="assets\css\all.css">
+  <link rel="stylesheet" href="assets\css\stile.css">
+  <title>Epicode - Contatti</title>  
+</head>
+
+<body>
+  <header>
+    <img src="assets\images\logo.png" alt="Logo Epicode">
+    <input type="checkbox" class="btn_menu" id="btn_menu"/>
+    <label for="btn_menu" class="icon_menu"><i class="fa-solid fa-ellipsis"></i></label>   
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a class="button_registrati" href="https://registrazione.epicode.it">Registrati</a></li>
+      </ul>
+    </nav>
+    </header>
+<section class="contatti">
+  <h2>Contatti</h2>
+  <div class="container_form_contatti">
+    <div class="form_contatti">
+      <form action="contatti-php"></form>
+      <label for="nome&cognome">Nome e cognome</label>
+      <input type="text" name="nome&cognome" id="nome&cognome" placeholder="Nome e cognome">
+      <label for="email">Indirizzo valido nome@casella.com</label>
+      <input type="text" name="email" id="email" placeholder="Indirizzo valido nome@casella.com">
+      <label for="message">Scrivi in breve il tuo messaggio</label>
+      <textarea>Scrivi in breve il tuo messaggio</textarea>
+      <label for="button">Invia il messaggio</label>
+      <input type="button" value="Invia il messaggio">
+    </div>
+    <div class="info_contatti">
+      <h3>Sede formativa</h3>
+      <address>Via Appia 1 00100</address>
+      <address>00100 (RM)</address>
+      <address>info@epicode.school</address>
+      <address>+39 0612345956</address>
+      <h3>Lavora con noi</h3>
+      <p>Per poterti candidare ad un ruolo da docente invia il tuo cv a job@epicode.school</p>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+  
+      <div>
+        <h4>Chi siamo</h4>
+        <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
+      </div>
+  
+      <div>
+        <h4>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h4>
+          <a href="https://www.facebook.it"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="https://www.linkedin.it"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.it"><i class="fa-brands fa-instagram-square"></i></a>
+      </div>
+  
+      <div>
+        <h4>Iscriviti alla nostra newsletter</h4>
+        <form action="newsletter.php" method="post" ><fieldset><input type="text"></fieldset></form>
+        <button>Va bene!</button>
+      </div>
+  
+    </div>
+  
+    <address>&copy 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel.06-12345678</address>
+  
+  </footer>
+
+</body>
+
+</html>
